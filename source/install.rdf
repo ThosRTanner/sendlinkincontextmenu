@@ -1,23 +1,25 @@
 <?xml version='1.0' encoding='utf-8'?>
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 
-<Description about="urn:mozilla:install-manifest">
+  <Description about="urn:mozilla:install-manifest">
 
-		<em:type>2</em:type>
-    <em:id>sendlinkincontextmenu@jasnapaka.com</em:id>
+    <em:type>2</em:type>
+    <em:id>sendlinkincontextmenu@thosrtanner.github.com</em:id>
     <em:name>Send Link in context menu</em:name>
-    <em:version>0.3.1-signed.1-signed</em:version>
+    <em:version>1.0.0 (pre-release)</em:version>
     <em:description>Add Send Link back into context menu.</em:description>
-    <em:creator>Pavel Cvrcek</em:creator>
-    <em:homepageURL>http://www.jasnapaka.com/mozilla/sendlinkincontextmenu/</em:homepageURL>
+    <em:creator>Tom Tanner</em:creator>
+    <em:homepageURL>https://github.com/ThosRTanner/sendlinkincontextmenu</em:homepageURL>
+
+    <em:contributor>Pavel Cvrcek</em:contributor>
 
     <!-- Mozilla Firefox -->
     <em:targetApplication>
-        <Description>
-            <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-            <em:minVersion>16.0</em:minVersion>
-            <em:maxVersion>17.0</em:maxVersion>
-        </Description>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>16.0</em:minVersion>
+        <em:maxVersion>17.0</em:maxVersion>
+      </Description>
     </em:targetApplication>
 
     <em:targetApplication>
@@ -29,6 +31,6 @@
       </Description>
     </em:targetApplication>
 
-</Description>
+  </Description>
 
 </RDF>
