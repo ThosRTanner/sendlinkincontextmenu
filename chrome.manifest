@@ -1,0 +1,4 @@
+content jpsendlink chrome/content/
+
+overlay chrome://browser/content/browser.xul         chrome://jpsendlink/content/sendlink.xul
+
